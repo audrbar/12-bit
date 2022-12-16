@@ -1,0 +1,19 @@
+.container {
+    display: inline;
+    padding: 20px 10px;
+}
+.left-column {
+    display: inline-block;
+    width: 80px;
+    min-height: 600px;
+    background-color: green;
+
+}
+.main-content {
+    display: inline;
+    background-color: yellowgreen;
+}
+.footer {
+    display: block;
+    background-color: red;
+}
