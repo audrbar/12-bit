@@ -1,6 +1,6 @@
 :root {
-    --main-color: grey;
-    --secondary-color: gray;
+    --main-color: #E5E5E5;;
+    --secondary-color: #F7F6FF;
 }
 html {
     scroll-behavior: smooth;

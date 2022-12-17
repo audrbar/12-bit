@@ -1,19 +1,23 @@
-.container {
-    display: inline;
-    padding: 20px 10px;
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
 }
-.left-column {
-    display: inline-block;
-    width: 80px;
-    min-height: 600px;
-    background-color: green;
-
+.left {
+    flex: 1;
+    background-color: var(--secondary-color);
 }
-.main-content {
-    display: inline;
-    background-color: yellowgreen;
+.left:hover {
+    flex: 2;
 }
-.footer {
-    display: block;
-    background-color: red;
+.right {
+    flex: 6;
+    background-color: var(--primary-color);
+}
+@media (max-width: 400px) {
+    .columns {
+        flex-direction: column;
+    }
 }
