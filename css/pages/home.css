@@ -1,9 +1,18 @@
 .left {
     display: flex;
     flex-direction: column;
+    width: 100px;
+    height: 100vh;
+    left: 0;
+    right: 0;
     align-items: center;
     padding-top: 30px;
     gap: 30px;
+}
+.left:hover {
+    width: 206px;
+    top: 0;
+    transition: 1s;
 }
 .nav-item {
     display: flex;
@@ -18,8 +27,9 @@
 }
 .footer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     color: blue;
+    margin-bottom: auto;
+    justify-content:space-around;
+    bottom: 0;
 }
