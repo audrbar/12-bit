@@ -5,41 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/base/base.css">
-    <link rel="stylesheet" href="./css/base/layout.css">
-    <link rel="stylesheet" href="./css/pages/home.css">
-    <title>Bite Site</title>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <title>BIT Site</title>
 </head>
 <body>
-    <section class="columns">
-        <div class="column left">
-            <img class="logo" src="./assets/images/logo.svg" alt="#">
-            <div class="nav">
-                <div class="line">
-                </div>
-                <div class="nav-item">
-                    <img class="nav-icon" src="./assets/images/home.svg" alt="Home">
-                    <a class="nav-link" href="#">Home</a>
-                </div>
-                <div class="nav-item">
-                    <img class="nav-icon" src="./assets/images/calendar.svg" alt="Calendar">
-                    <a class="nav-link" href="#">Calendar</a>
-                </div>
-                <div class="nav-item">
-                    <img class="nav-icon" src="./assets/images/fe.svg" alt="Fe">
-                    <a class="nav-link" href="#">Fe</a>
-                </div>
-                <div class="nav-item">
-                    <img class="nav-icon" src="./assets/images/games.svg" alt="Games">
-                    <a class="nav-link" href="#">Games</a>
-                </div>
-            </div>
+    <nav class="nav">
+        <img class="logo" src="./images/logo.svg" alt="bit">
+        <hr>
+        <div class="nav-item active">
+            <img class="nav-icon" src="./images/home.svg" alt="home">
+            <a href="#">Home</a>
         </div>
-        <div class="column right">
-            <div class="footer">
-                <p>&copy; Baltic Institute of technology</p>
-            </div>
+        <div class="nav-item">
+            <img class="nav-icon" src="./images/calendar.svg" alt="calendar">
+            <a href="#">Calendar</a>
         </div>
-    </section>
+        <div class="nav-item">
+            <img class="nav-icon" src="./images/fe.svg" alt="Fe">
+            <a href="#">Fe</a>
+        </div>
+        <div class="nav-item">
+            <img class="nav-icon" src="./images/games.svg" alt="Games">
+            <a href="#">Games</a>
+        </div>
+    </nav>
+    <footer>
+        <span>&copy; Baltic Institute of Technology</span>
+    </footer>
 </body>
 </html>
